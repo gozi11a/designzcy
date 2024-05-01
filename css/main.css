@@ -99,4 +99,37 @@ button {
   border: 1px solid #F36B40;
 }
 
+#service {
+  margin-top: 84px;
+}
+#service .container .serviceTop {
+  display: flex;
+  flex-direction: column;
+}
+#service .container .serviceTop h2 {
+  text-align: center;
+  margin-bottom: 48px;
+  font-size: 40px;
+  font-weight: 700;
+}
+#service .container .serviceTop .serviceTopCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #ebebeb;
+  border-radius: 8px;
+}
+#service .container .serviceTop .serviceTopCards .serviceTopCard {
+  padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+#service .container .serviceTop .serviceTopCards .serviceTopCard:nth-child(2) {
+  border-left: 2px solid #ebebeb;
+  border-right: 2px solid #ebebeb;
+}
+
 /*# sourceMappingURL=main.css.map */
