@@ -1,0 +1,38 @@
+#hero {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .heroLeft {
+            h2 {
+                font-size: 72px;
+                color: #3d3d3f;
+            }
+
+            p {
+                width: 515px;
+                font-size: 20px;
+                color: #3d3d3f;
+                margin-bottom: 30px;
+            }
+
+            button {
+                background-color: transparent;
+                padding: 10px 18px;
+                border-radius: 6px;
+                background-color: #F36B40;
+                color: white;
+                transition: 0.3s ease-in;
+                border: 1px solid transparent;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: transparent;
+                    color: #F36B40;
+                    border: 1px solid #F36B40;
+                }
+            }
+        }
+    }
+}
