@@ -127,6 +127,9 @@ button {
   align-items: center;
   width: 33%;
 }
+#service .container .serviceTop .serviceTopCards .serviceTopCard p {
+  color: #3D3D3F;
+}
 #service .container .serviceTop .serviceTopCards .serviceTopCard:nth-child(2) {
   border-left: 2px solid #ebebeb;
   border-right: 2px solid #ebebeb;
