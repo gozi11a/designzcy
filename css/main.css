@@ -135,4 +135,64 @@ button {
   border-right: 2px solid #ebebeb;
 }
 
+#offers {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+#offers .container .offersCaption {
+  font-weight: 700;
+  font-size: 40px;
+  color: #3D3D3F;
+  text-align: center;
+}
+#offers .container .offerCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+#offers .container .offerCards .offerCard {
+  width: 300px;
+  height: 250px;
+  box-shadow: 2px 2px 40px rgb(238, 238, 238);
+  border-radius: 20px;
+  position: relative;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#offers .container .offerCards .offerCard h5 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3D3D3F;
+  text-align: center;
+}
+#offers .container .offerCards .offerCard p {
+  color: #595959;
+  line-height: 150%;
+  text-align: center;
+  text-wrap: wrap;
+}
+#offers .container .offerCards .offerCard * {
+  text-align: center;
+}
+#offers .container .offerCards .offerCard .offerImg {
+  z-index: 100;
+  background-color: #fff;
+  position: absolute;
+  top: -43px;
+  border: 1px solid transparent;
+  padding: 12px 14px;
+  border-radius: 1000px;
+  box-shadow: 1px 1px 20px rgb(232, 232, 232);
+  transition: 0.4s ease-in;
+}
+#offers .container .offerCards .offerCard .offerImg:hover {
+  background-color: #FF7A50;
+}
+#offers .container .offerCards .offerCard .offerImg:hover .ikki {
+  fill: #ffffff;
+}
+
 /*# sourceMappingURL=main.css.map */
